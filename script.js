@@ -6,7 +6,7 @@ const profileEmail = document.getElementById('p-email');
 const btnGenerateMore = document.getElementById('btn-random');
 
 btnGenerateMore.onclick = async() => { getRandomProfile(); }
-  
+
 getRandomProfile = async() => {
   document.getElementById('div-user-card').style.display = "none";
   document.getElementById('div-loading-card').style.display = "";
